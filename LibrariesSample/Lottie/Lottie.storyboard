@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Awe-aQ-XQz">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Lottie View Controller-->
+        <scene sceneID="m6S-b3-Har">
+            <objects>
+                <viewController id="Awe-aQ-XQz" customClass="LottieViewController" customModule="LibrariesSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Aw0-Cl-Mrl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bbW-Hb-AWG">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q8q-m2-3gl">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="128"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1WP-QF-mr8">
+                                        <rect key="frame" x="0.0" y="128" width="414" height="128"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gdm-tQ-CAP">
+                                        <rect key="frame" x="0.0" y="256" width="414" height="128"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lZ8-AS-cXw">
+                                        <rect key="frame" x="0.0" y="384" width="414" height="128"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IuA-Sg-HGo">
+                                        <rect key="frame" x="0.0" y="512" width="414" height="306"/>
+                                        <state key="normal" title="アニメーション"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="lZ8-AS-cXw" firstAttribute="height" secondItem="Q8q-m2-3gl" secondAttribute="height" id="QTM-Uy-vM8"/>
+                                    <constraint firstItem="1WP-QF-mr8" firstAttribute="height" secondItem="Q8q-m2-3gl" secondAttribute="height" id="YFm-rV-ZFw"/>
+                                    <constraint firstItem="Gdm-tQ-CAP" firstAttribute="height" secondItem="Q8q-m2-3gl" secondAttribute="height" id="j9Z-IL-zDr"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="h0l-pf-6CV"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="h0l-pf-6CV" firstAttribute="trailing" secondItem="bbW-Hb-AWG" secondAttribute="trailing" id="Pp5-fV-C4q"/>
+                            <constraint firstItem="h0l-pf-6CV" firstAttribute="bottom" secondItem="bbW-Hb-AWG" secondAttribute="bottom" id="RqQ-7p-yic"/>
+                            <constraint firstItem="bbW-Hb-AWG" firstAttribute="leading" secondItem="h0l-pf-6CV" secondAttribute="leading" id="Tjd-Qa-i8S"/>
+                            <constraint firstItem="bbW-Hb-AWG" firstAttribute="top" secondItem="h0l-pf-6CV" secondAttribute="top" id="rp9-u7-Eks"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="animationButton" destination="IuA-Sg-HGo" id="k7h-Cc-wkg"/>
+                        <outlet property="animationContainerView1" destination="Q8q-m2-3gl" id="Fbj-rq-Qv2"/>
+                        <outlet property="animationContainerView2" destination="1WP-QF-mr8" id="eAD-Lc-BDh"/>
+                        <outlet property="animationContainerView3" destination="Gdm-tQ-CAP" id="7C5-Nx-sL5"/>
+                        <outlet property="animationContainerView4" destination="lZ8-AS-cXw" id="89O-nB-TyT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iir-IN-BhK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-372" y="138"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

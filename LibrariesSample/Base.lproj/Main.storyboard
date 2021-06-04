@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eR8-WO-UWG">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LibrariesSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="JhZ-XF-CJI">
+                                <rect key="frame" x="16" y="104" width="382" height="742"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ez-pm-f5b">
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="140.5"/>
+                                        <state key="normal" title="Lottie"/>
+                                        <connections>
+                                            <segue destination="seF-t3-tMI" kind="show" id="c1g-71-baG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4x9-mV-alN">
+                                        <rect key="frame" x="0.0" y="150.5" width="382" height="140.5"/>
+                                        <state key="normal" title="IQKeyboardManager"/>
+                                        <connections>
+                                            <segue destination="rKY-kK-Vi3" kind="show" id="W23-JK-syN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S4L-gN-TRC">
+                                        <rect key="frame" x="0.0" y="301" width="382" height="140"/>
+                                        <state key="normal" title="SwiftyAttribute"/>
+                                        <connections>
+                                            <segue destination="KY8-Lf-EkJ" kind="show" id="3Zz-Cc-vtR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sir-cp-Hgg">
+                                        <rect key="frame" x="0.0" y="451" width="382" height="140.5"/>
+                                        <state key="normal" title="Kingfisher"/>
+                                        <connections>
+                                            <segue destination="W44-Sk-QS8" kind="show" id="wlA-jo-8tT"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iWK-Ib-Cpq">
+                                        <rect key="frame" x="0.0" y="601.5" width="382" height="140.5"/>
+                                        <state key="normal" title="ActiveLabel"/>
+                                        <connections>
+                                            <segue destination="DFv-a1-gs2" kind="show" id="bhF-x4-RWh"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JhZ-XF-CJI" secondAttribute="trailing" constant="16" id="2fb-2M-PYP"/>
+                            <constraint firstItem="JhZ-XF-CJI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="jpl-m1-dlD"/>
+                            <constraint firstItem="JhZ-XF-CJI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="mP7-Pn-b5f"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JhZ-XF-CJI" secondAttribute="bottom" constant="16" id="rS9-JB-vXb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="uKk-WV-P0b"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="137.94642857142856"/>
+        </scene>
+        <!--Lottie-->
+        <scene sceneID="4Ba-Gq-S5C">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Lottie" id="seF-t3-tMI" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="oF0-Fi-IdT"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fBQ-SY-a7m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1666" y="-54"/>
+        </scene>
+        <!--IQKeyboardManager-->
+        <scene sceneID="5b7-Vk-ZR3">
+            <objects>
+                <viewControllerPlaceholder storyboardName="IQKeyboardManager" id="rKY-kK-Vi3" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="6xA-tg-VMo"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2RX-t9-qtC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1665" y="32"/>
+        </scene>
+        <!--SwiftyAttribute-->
+        <scene sceneID="oci-ne-h0r">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SwiftyAttribute" id="KY8-Lf-EkJ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Cck-8G-iqU"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y6r-Wj-eNH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1666" y="120"/>
+        </scene>
+        <!--Kingfisher-->
+        <scene sceneID="zgR-XD-she">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Kingfisher" id="W44-Sk-QS8" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="DcZ-7d-Wfk"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nCa-YW-Mb7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1666" y="174"/>
+        </scene>
+        <!--ActiveLabel-->
+        <scene sceneID="2Ua-zR-Akc">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ActiveLabel" id="DFv-a1-gs2" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="UfD-Eq-hb2"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eg1-L0-XVr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1666" y="226"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="DNB-VD-gCs">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eR8-WO-UWG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pzb-jD-bcw">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="O86-6U-Xdj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yio-2s-XuQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
