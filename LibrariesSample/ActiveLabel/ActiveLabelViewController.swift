@@ -5,13 +5,15 @@
 //  Created by Masato Takamura on 2021/06/04.
 //
 
-import UIKit
 import ActiveLabel
+import UIKit
 
 final class ActiveLabelViewController: UIViewController {
-    
     private let activeLabel1 = ActiveLabel()
-    @IBOutlet private weak var activeLabelContainerView1: UIView! {
+    private let activeLabel2 = ActiveLabel()
+    private let activeLabel3 = ActiveLabel()
+    private let activeLabel4 = ActiveLabel()
+    @IBOutlet private var activeLabelContainerView1: UIView! {
         didSet {
             activeLabelContainerView1.addSubview(activeLabel1)
             activeLabel1.snp.makeConstraints { $0.edges.equalToSuperview() }
@@ -23,8 +25,8 @@ final class ActiveLabelViewController: UIViewController {
             activeLabel1.handleMentionTap { self.alert("mention", message: $0) }
         }
     }
-    private let activeLabel2 = ActiveLabel()
-    @IBOutlet private weak var activeLabelContainerView2: UIView! {
+
+    @IBOutlet private var activeLabelContainerView2: UIView! {
         didSet {
             activeLabelContainerView2.addSubview(activeLabel2)
             activeLabel2.snp.makeConstraints { $0.edges.equalToSuperview() }
@@ -36,8 +38,8 @@ final class ActiveLabelViewController: UIViewController {
             activeLabel2.handleHashtagTap { self.alert("hashtag", message: $0) }
         }
     }
-    private let activeLabel3 = ActiveLabel()
-    @IBOutlet private weak var activeLabelContainerView3: UIView! {
+
+    @IBOutlet private var activeLabelContainerView3: UIView! {
         didSet {
             activeLabelContainerView3.addSubview(activeLabel3)
             activeLabel3.snp.makeConstraints { $0.edges.equalToSuperview() }
@@ -49,8 +51,8 @@ final class ActiveLabelViewController: UIViewController {
             activeLabel3.handleURLTap { self.alert("url", message: $0.absoluteString) }
         }
     }
-    private let activeLabel4 = ActiveLabel()
-    @IBOutlet private weak var activeLabelContainerView4: UIView! {
+
+    @IBOutlet private var activeLabelContainerView4: UIView! {
         didSet {
             activeLabelContainerView4.addSubview(activeLabel4)
             activeLabel4.snp.makeConstraints { $0.edges.equalToSuperview() }
@@ -63,18 +65,15 @@ final class ActiveLabelViewController: UIViewController {
             activeLabel4.handleCustomTap(for: actieType) { self.alert("custom", message: $0) }
         }
     }
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "ActiveLabel"
     }
-    
+
     func alert(_ title: String, message: String) {
         let vc = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
         vc.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: nil))
         present(vc, animated: true, completion: nil)
     }
-    
-
 }

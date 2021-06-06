@@ -8,11 +8,9 @@
 import UIKit
 
 final class IQKeyboardManagerViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
         title = "IQKeyboardManager"
     }
-
 }
