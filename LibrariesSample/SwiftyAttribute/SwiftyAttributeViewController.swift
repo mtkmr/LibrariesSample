@@ -5,14 +5,12 @@
 //  Created by Masato Takamura on 2021/06/03.
 //
 
-import UIKit
 import SwiftyAttributes
-
+import UIKit
 
 final class SwiftyAttributeViewController: UIViewController {
-    
-    //SwiftyAttributeを使用しない場合
-    @IBOutlet private weak var noSwiftyAttributeLabel: UILabel! {
+    // SwiftyAttributeを使用しない場合
+    @IBOutlet private var noSwiftyAttributeLabel: UILabel! {
         didSet {
             let style = NSMutableParagraphStyle()
             style.lineSpacing = 10
@@ -31,20 +29,17 @@ final class SwiftyAttributeViewController: UIViewController {
                 .strokeColor: UIColor.green,
                 .strokeWidth: -2.0
             ]
-            
+
             let attText1 = NSMutableAttributedString(string: "これは装飾", attributes: textAttribute1)
             let attText2 = NSMutableAttributedString(string: "テキストです", attributes: textAttribute2)
             attText1.append(attText2)
-            
+
             noSwiftyAttributeLabel.attributedText = attText1
         }
     }
-    
-    
-    
-    
-    //SwiftyAttributeを使用した場合
-    @IBOutlet private weak var swiftyAttributeLabel: UILabel! {
+
+    // SwiftyAttributeを使用した場合
+    @IBOutlet private var swiftyAttributeLabel: UILabel! {
         didSet {
             let style = NSMutableParagraphStyle()
             style.lineSpacing = 10
@@ -65,13 +60,9 @@ final class SwiftyAttributeViewController: UIViewController {
                 .withStrokeWidth(-2.0)
         }
     }
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "SwiftyAttribute"
     }
-    
-
-
 }

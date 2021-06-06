@@ -5,6 +5,7 @@ PODS:
   - LicensePlist (3.13.0)
   - lottie-ios (3.1.8)
   - SnapKit (5.0.1)
+  - SwiftLint (0.43.1)
   - SwiftyAttributes (5.1.1)
 
 DEPENDENCIES:
@@ -14,6 +15,7 @@ DEPENDENCIES:
   - LicensePlist
   - lottie-ios
   - SnapKit
+  - SwiftLint
   - SwiftyAttributes
 
 SPEC REPOS:
@@ -24,6 +26,7 @@ SPEC REPOS:
     - LicensePlist
     - lottie-ios
     - SnapKit
+    - SwiftLint
     - SwiftyAttributes
 
 SPEC CHECKSUMS:
@@ -33,8 +36,9 @@ SPEC CHECKSUMS:
   LicensePlist: 4e87d3438e03ae2d368ff5bd85344aa03ca722eb
   lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
   SwiftyAttributes: e3e13891ddac3c62b3d7798d5c3969cea88e62bb
 
-PODFILE CHECKSUM: 3aced26153372072900d998099722ac02820495b
+PODFILE CHECKSUM: 3bb3d8d73752a5f1d03d6dcef182c373aaf8042d
 
 COCOAPODS: 1.10.0

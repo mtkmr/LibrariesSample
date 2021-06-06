@@ -197,6 +197,7 @@
 				8C7851D52668EAE6005871C3 /* Resources */,
 				9DCA348FD5955B9EAC5B9D98 /* [CP] Embed Pods Frameworks */,
 				8C0022E5266A489600E6F5D8 /* Run Script(LicensePlist) */,
+				8C00236B266CEE0E00E6F5D8 /* Run Script(SwiftLint) */,
 			);
 			buildRules = (
 			);
@@ -280,6 +281,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if [ $CONFIGURATION = \"Debug\" ]; then\n ${PODS_ROOT}/LicensePlist/license-plist --output-path $PRODUCT_NAME/Settings.bundle\nfi\n";
+		};
+		8C00236B266CEE0E00E6F5D8 /* Run Script(SwiftLint) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script(SwiftLint)";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint autocorrect --format\n${PODS_ROOT}/SwiftLint/swiftlint\n\n";
 		};
 		9DCA348FD5955B9EAC5B9D98 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;

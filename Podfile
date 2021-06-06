@@ -12,4 +12,5 @@ target 'LibrariesSample' do
   pod 'Kingfisher'
   pod 'ActiveLabel'
   pod 'LicensePlist'
+  pod 'SwiftLint'
 end
