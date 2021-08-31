@@ -89,8 +89,8 @@ final class LottieViewController: UIViewController {
     }
 }
 
+@objc
 private extension LottieViewController {
-    @objc
     func animationButtonTapped(_ sender: UIButton) {
         isPlaying.toggle()
         let animationViews = [animationView1, animationView2, animationView3, animationView4]

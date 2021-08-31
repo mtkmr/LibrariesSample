@@ -67,8 +67,8 @@ final class KingfisherViewController: UIViewController {
     }
 }
 
+@objc
 private extension KingfisherViewController {
-    @objc
     func loadButtonTapped(_ sender: UIButton) {
         let s = urls.enumerated() // イメージとしては[(0)url1, (1)url1...(5)url5]な感じ
         print(s)

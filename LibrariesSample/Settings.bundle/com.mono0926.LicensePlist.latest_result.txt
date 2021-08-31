@@ -22,9 +22,19 @@ name: lottie-ios, nameSpecified:
 body:                     …
 version: 3.1.8
 
+name: PKHUD, nameSpecified: 
+body: The MIT License (MIT…
+version: 5.3.0
+
 name: SnapKit, nameSpecified: 
 body: Copyright (c) 2011-P…
 version: 5.0.1
+
+name: SwiftGen, nameSpecified: 
+body: MIT Licence
+
+Copyrig…
+version: 6.4.0
 
 name: SwiftLint, nameSpecified: 
 body: The MIT License (MIT…

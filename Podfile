@@ -13,4 +13,6 @@ target 'LibrariesSample' do
   pod 'ActiveLabel'
   pod 'LicensePlist'
   pod 'SwiftLint'
+  pod 'SwiftGen'
+  pod 'PKHUD'
 end
