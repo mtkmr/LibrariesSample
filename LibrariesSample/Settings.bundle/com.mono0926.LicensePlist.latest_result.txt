@@ -2,7 +2,7 @@ name: ActiveLabel, nameSpecified:
 body: The MIT License (MIT…
 version: 1.1.0
 
-name: IQKeyboardManager, nameSpecified: 
+name: IQKeyboardManagerSwift, nameSpecified: 
 body: MIT License
 
 Copyrig…

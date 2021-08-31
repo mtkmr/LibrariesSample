@@ -7,7 +7,7 @@ target 'LibrariesSample' do
   # Pods for LibrariesSample
   pod 'lottie-ios'
   pod 'SnapKit'
-  pod 'IQKeyboardManager'
+  pod 'IQKeyboardManagerSwift'
   pod 'SwiftyAttributes'
   pod 'Kingfisher'
   pod 'ActiveLabel'
