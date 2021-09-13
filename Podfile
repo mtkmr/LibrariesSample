@@ -5,6 +5,11 @@ target 'LibrariesSample' do
   use_frameworks!
 
   # Pods for LibrariesSample
+  pod "HyperioniOS/Core", :configurations => ['Debug']
+  pod 'HyperioniOS/AttributesInspector', :configurations => ['Debug'] # Optional plugin
+  pod 'HyperioniOS/Measurements', :configurations => ['Debug'] # Optional plugin
+  pod 'HyperioniOS/SlowAnimations', :configurations => ['Debug'] # Optional plugin
+
   pod 'lottie-ios'
   pod 'SnapKit'
   pod 'IQKeyboardManagerSwift'

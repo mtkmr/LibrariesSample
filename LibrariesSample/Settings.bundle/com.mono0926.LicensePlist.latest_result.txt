@@ -2,6 +2,10 @@ name: ActiveLabel, nameSpecified:
 body: The MIT License (MIT…
 version: 1.1.0
 
+name: HyperioniOS, nameSpecified: 
+body: Copyright (c) 2017 W…
+version: 1.2.0
+
 name: IQKeyboardManagerSwift, nameSpecified: 
 body: MIT License
 

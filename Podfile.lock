@@ -1,5 +1,12 @@
 PODS:
   - ActiveLabel (1.1.0)
+  - HyperioniOS/AttributesInspector (1.2.0):
+    - HyperioniOS/Core
+  - HyperioniOS/Core (1.2.0)
+  - HyperioniOS/Measurements (1.2.0):
+    - HyperioniOS/Core
+  - HyperioniOS/SlowAnimations (1.2.0):
+    - HyperioniOS/Core
   - IQKeyboardManagerSwift (6.5.6)
   - Kingfisher (6.3.0)
   - LicensePlist (3.13.0)
@@ -12,6 +19,10 @@ PODS:
 
 DEPENDENCIES:
   - ActiveLabel
+  - HyperioniOS/AttributesInspector
+  - HyperioniOS/Core
+  - HyperioniOS/Measurements
+  - HyperioniOS/SlowAnimations
   - IQKeyboardManagerSwift
   - Kingfisher
   - LicensePlist
@@ -25,6 +36,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - ActiveLabel
+    - HyperioniOS
     - IQKeyboardManagerSwift
     - Kingfisher
     - LicensePlist
@@ -37,6 +49,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   ActiveLabel: 5e3f4de79a1952d4604b845a0610d4776e4b82b3
+  HyperioniOS: 4412ec61a390caadffcaaf3364733b06e103cf63
   IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
   Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
   LicensePlist: 4e87d3438e03ae2d368ff5bd85344aa03ca722eb
@@ -47,6 +60,6 @@ SPEC CHECKSUMS:
   SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
   SwiftyAttributes: e3e13891ddac3c62b3d7798d5c3969cea88e62bb
 
-PODFILE CHECKSUM: dd6346f8d89d33a2769206e38657a849848d61e0
+PODFILE CHECKSUM: fa339f9ac94b3d4be1177de78542fd4e48b4e408
 
 COCOAPODS: 1.10.0

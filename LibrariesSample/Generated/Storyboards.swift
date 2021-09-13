@@ -17,6 +17,11 @@ internal enum StoryboardScene {
 
     internal static let initialScene = InitialSceneType<LibrariesSample.ActiveLabelViewController>(storyboard: ActiveLabel.self)
   }
+  internal enum HyperioniOS: StoryboardType {
+    internal static let storyboardName = "HyperioniOS"
+
+    internal static let initialScene = InitialSceneType<LibrariesSample.HyperioniOSViewController>(storyboard: HyperioniOS.self)
+  }
   internal enum IQKeyboardManager: StoryboardType {
     internal static let storyboardName = "IQKeyboardManager"
 

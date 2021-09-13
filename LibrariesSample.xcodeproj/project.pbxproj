@@ -33,6 +33,9 @@
 		8C78520226690336005871C3 /* 6843-map-location.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C78520126690336005871C3 /* 6843-map-location.json */; };
 		8C78520526690347005871C3 /* 57222-food-loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C78520426690347005871C3 /* 57222-food-loading.json */; };
 		8C78520C26691461005871C3 /* 24064-food-squeeze-with-burger-and-hot-dog.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C78520B26691461005871C3 /* 24064-food-squeeze-with-burger-and-hot-dog.json */; };
+		8CB0737B26EE4CCE00CDBD68 /* HyperioniOS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0737A26EE4CCE00CDBD68 /* HyperioniOS.storyboard */; };
+		8CB0737D26EE4CE300CDBD68 /* HyperioniOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0737C26EE4CE300CDBD68 /* HyperioniOSViewController.swift */; };
+		8CB0738226EF0FEF00CDBD68 /* HyperionConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0738126EF0FEF00CDBD68 /* HyperionConfiguration.plist */; };
 		C4C7D61E4FC231C7FF965E46 /* Pods_LibrariesSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E313DAD94073A7148167BD7 /* Pods_LibrariesSample.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +68,10 @@
 		8C78520126690336005871C3 /* 6843-map-location.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "6843-map-location.json"; sourceTree = "<group>"; };
 		8C78520426690347005871C3 /* 57222-food-loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "57222-food-loading.json"; sourceTree = "<group>"; };
 		8C78520B26691461005871C3 /* 24064-food-squeeze-with-burger-and-hot-dog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "24064-food-squeeze-with-burger-and-hot-dog.json"; sourceTree = "<group>"; };
+		8CB0737A26EE4CCE00CDBD68 /* HyperioniOS.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HyperioniOS.storyboard; sourceTree = "<group>"; };
+		8CB0737C26EE4CE300CDBD68 /* HyperioniOSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperioniOSViewController.swift; sourceTree = "<group>"; };
+		8CB0738126EF0FEF00CDBD68 /* HyperionConfiguration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HyperionConfiguration.plist; sourceTree = "<group>"; };
+		8CB0738326EF102B00CDBD68 /* HyperionConfiguration.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = HyperionConfiguration.plist; path = LibrariesSample/HyperionConfiguration.plist; sourceTree = "<group>"; };
 		8E313DAD94073A7148167BD7 /* Pods_LibrariesSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LibrariesSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2714F1ED719BA817BB4614E /* Pods-LibrariesSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibrariesSample.release.xcconfig"; path = "Target Support Files/Pods-LibrariesSample/Pods-LibrariesSample.release.xcconfig"; sourceTree = "<group>"; };
 		BC8131A6294A80D32F934609 /* Pods-LibrariesSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibrariesSample.debug.xcconfig"; path = "Target Support Files/Pods-LibrariesSample/Pods-LibrariesSample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -149,6 +156,7 @@
 		8C7851CE2668EAE6005871C3 = {
 			isa = PBXGroup;
 			children = (
+				8CB0738326EF102B00CDBD68 /* HyperionConfiguration.plist */,
 				8C0022F0266A52FA00E6F5D8 /* Settings.bundle */,
 				8C7851D92668EAE6005871C3 /* LibrariesSample */,
 				8C7851D82668EAE6005871C3 /* Products */,
@@ -175,12 +183,14 @@
 				8C7851E52668EAE7005871C3 /* LaunchScreen.storyboard */,
 				8C7851E02668EAE6005871C3 /* Main.storyboard */,
 				8C7851E82668EAE7005871C3 /* Info.plist */,
+				8CB0738126EF0FEF00CDBD68 /* HyperionConfiguration.plist */,
 				8C7851F12668EBA6005871C3 /* Lottie */,
 				8C00229026691A6700E6F5D8 /* IQKeyboardManager */,
 				8C00229C26691F8000E6F5D8 /* SwiftyAttribute */,
 				8C0022B026692FFD00E6F5D8 /* Kingfisher */,
 				8C0022B7266A00BD00E6F5D8 /* ActiveLabel */,
 				8C2D23A926DE378B00E03238 /* PKHUD */,
+				8CB0737926EE4C9200CDBD68 /* HyperioniOS */,
 			);
 			path = LibrariesSample;
 			sourceTree = "<group>";
@@ -204,6 +214,15 @@
 				8C78520B26691461005871C3 /* 24064-food-squeeze-with-burger-and-hot-dog.json */,
 			);
 			path = Animations;
+			sourceTree = "<group>";
+		};
+		8CB0737926EE4C9200CDBD68 /* HyperioniOS */ = {
+			isa = PBXGroup;
+			children = (
+				8CB0737A26EE4CCE00CDBD68 /* HyperioniOS.storyboard */,
+				8CB0737C26EE4CE300CDBD68 /* HyperioniOSViewController.swift */,
+			);
+			path = HyperioniOS;
 			sourceTree = "<group>";
 		};
 		BFF5BB8156C70AA739089CE2 /* Frameworks */ = {
@@ -285,12 +304,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CB0738226EF0FEF00CDBD68 /* HyperionConfiguration.plist in Resources */,
 				8C2D239C26DE2E8200E03238 /* Colors.xcassets in Resources */,
 				8C7851E72668EAE7005871C3 /* LaunchScreen.storyboard in Resources */,
 				8C00229226691ADE00E6F5D8 /* IQKeyboardManager.storyboard in Resources */,
 				8C0022F1266A52FA00E6F5D8 /* Settings.bundle in Resources */,
 				8C7851F32668EBB4005871C3 /* Lottie.storyboard in Resources */,
 				8C78520226690336005871C3 /* 6843-map-location.json in Resources */,
+				8CB0737B26EE4CCE00CDBD68 /* HyperioniOS.storyboard in Resources */,
 				8C0022B9266A00D400E6F5D8 /* ActiveLabel.storyboard in Resources */,
 				8C00229E26691F9A00E6F5D8 /* SwiftyAttribute.storyboard in Resources */,
 				8C78520526690347005871C3 /* 57222-food-loading.json in Resources */,
@@ -416,6 +437,7 @@
 				8C2D23A326DE36EC00E03238 /* Storyboards.swift in Sources */,
 				8C7851DD2668EAE6005871C3 /* SceneDelegate.swift in Sources */,
 				8C0022A126691FA900E6F5D8 /* SwiftyAttributeViewController.swift in Sources */,
+				8CB0737D26EE4CE300CDBD68 /* HyperioniOSViewController.swift in Sources */,
 				8C2D23A226DE36EC00E03238 /* Assets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
