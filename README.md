@@ -14,6 +14,7 @@ A sample for trying to use the various libraries.
 - [SwiftLint](https://github.com/realm/SwiftLint)
 - [SwiftGen](https://github.com/SwiftGen/SwiftGen)
 - [PKHUD](https://github.com/pkluz/PKHUD)
+- [SwiftMessages](https://github.com/SwiftKickMobile/SwiftMessages)
 
 # Installation
  
@@ -30,5 +31,6 @@ Using Cocoa Pods
   pod 'SwiftLint'
   pod 'SwiftGen'
   pod 'PKHUD'
+  pod 'SwiftMessages'
 ```
  
