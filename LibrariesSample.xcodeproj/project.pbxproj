@@ -16,6 +16,8 @@
 		8C0022B9266A00D400E6F5D8 /* ActiveLabel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0022B8266A00D400E6F5D8 /* ActiveLabel.storyboard */; };
 		8C0022BC266A00DE00E6F5D8 /* ActiveLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0022BB266A00DE00E6F5D8 /* ActiveLabelViewController.swift */; };
 		8C0022F1266A52FA00E6F5D8 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8C0022F0266A52FA00E6F5D8 /* Settings.bundle */; };
+		8C0DA1D52774D80700E245BF /* SwiftMessages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0DA1D42774D80700E245BF /* SwiftMessages.storyboard */; };
+		8C0DA1D72774D82900E245BF /* SwiftMessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0DA1D62774D82900E245BF /* SwiftMessagesViewController.swift */; };
 		8C2D239A26DE2E7600E03238 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C2D239926DE2E7600E03238 /* Images.xcassets */; };
 		8C2D239C26DE2E8200E03238 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C2D239B26DE2E8200E03238 /* Colors.xcassets */; };
 		8C2D23A226DE36EC00E03238 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D23A026DE36EC00E03238 /* Assets.swift */; };
@@ -23,6 +25,7 @@
 		8C2D23A626DE374200E03238 /* Hud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D23A526DE374200E03238 /* Hud.swift */; };
 		8C2D23AB26DE37A900E03238 /* PKHUD.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C2D23AA26DE37A900E03238 /* PKHUD.storyboard */; };
 		8C2D23AE26DE37C800E03238 /* PKHUDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D23AD26DE37C800E03238 /* PKHUDViewController.swift */; };
+		8C4B60DB2775B0BD00FC17B0 /* BottomCardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4B60DA2775B0BD00FC17B0 /* BottomCardSegue.swift */; };
 		8C7851DB2668EAE6005871C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7851DA2668EAE6005871C3 /* AppDelegate.swift */; };
 		8C7851DD2668EAE6005871C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7851DC2668EAE6005871C3 /* SceneDelegate.swift */; };
 		8C7851E22668EAE6005871C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7851E02668EAE6005871C3 /* Main.storyboard */; };
@@ -49,6 +52,8 @@
 		8C0022B8266A00D400E6F5D8 /* ActiveLabel.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ActiveLabel.storyboard; sourceTree = "<group>"; };
 		8C0022BB266A00DE00E6F5D8 /* ActiveLabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveLabelViewController.swift; sourceTree = "<group>"; };
 		8C0022F0266A52FA00E6F5D8 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		8C0DA1D42774D80700E245BF /* SwiftMessages.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SwiftMessages.storyboard; sourceTree = "<group>"; };
+		8C0DA1D62774D82900E245BF /* SwiftMessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMessagesViewController.swift; sourceTree = "<group>"; };
 		8C2D239926DE2E7600E03238 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8C2D239B26DE2E8200E03238 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		8C2D23A026DE36EC00E03238 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
@@ -56,6 +61,7 @@
 		8C2D23A526DE374200E03238 /* Hud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hud.swift; sourceTree = "<group>"; };
 		8C2D23AA26DE37A900E03238 /* PKHUD.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PKHUD.storyboard; sourceTree = "<group>"; };
 		8C2D23AD26DE37C800E03238 /* PKHUDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKHUDViewController.swift; sourceTree = "<group>"; };
+		8C4B60DA2775B0BD00FC17B0 /* BottomCardSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCardSegue.swift; sourceTree = "<group>"; };
 		8C7851D72668EAE6005871C3 /* LibrariesSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibrariesSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7851DA2668EAE6005871C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C7851DC2668EAE6005871C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +131,16 @@
 			path = ActiveLabel;
 			sourceTree = "<group>";
 		};
+		8C0DA1D32774D7EA00E245BF /* SwiftMessages */ = {
+			isa = PBXGroup;
+			children = (
+				8C0DA1D42774D80700E245BF /* SwiftMessages.storyboard */,
+				8C0DA1D62774D82900E245BF /* SwiftMessagesViewController.swift */,
+				8C4B60DA2775B0BD00FC17B0 /* BottomCardSegue.swift */,
+			);
+			path = SwiftMessages;
+			sourceTree = "<group>";
+		};
 		8C2D239726DE2E3D00E03238 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +207,7 @@
 				8C0022B7266A00BD00E6F5D8 /* ActiveLabel */,
 				8C2D23A926DE378B00E03238 /* PKHUD */,
 				8CB0737926EE4C9200CDBD68 /* HyperioniOS */,
+				8C0DA1D32774D7EA00E245BF /* SwiftMessages */,
 			);
 			path = LibrariesSample;
 			sourceTree = "<group>";
@@ -306,6 +323,7 @@
 			files = (
 				8CB0738226EF0FEF00CDBD68 /* HyperionConfiguration.plist in Resources */,
 				8C2D239C26DE2E8200E03238 /* Colors.xcassets in Resources */,
+				8C0DA1D52774D80700E245BF /* SwiftMessages.storyboard in Resources */,
 				8C7851E72668EAE7005871C3 /* LaunchScreen.storyboard in Resources */,
 				8C00229226691ADE00E6F5D8 /* IQKeyboardManager.storyboard in Resources */,
 				8C0022F1266A52FA00E6F5D8 /* Settings.bundle in Resources */,
@@ -429,7 +447,9 @@
 			files = (
 				8C2D23A626DE374200E03238 /* Hud.swift in Sources */,
 				8C7851F62668EBCA005871C3 /* LottieViewController.swift in Sources */,
+				8C4B60DB2775B0BD00FC17B0 /* BottomCardSegue.swift in Sources */,
 				8C7851DB2668EAE6005871C3 /* AppDelegate.swift in Sources */,
+				8C0DA1D72774D82900E245BF /* SwiftMessagesViewController.swift in Sources */,
 				8C00229526691AEF00E6F5D8 /* IQKeyboardManagerViewController.swift in Sources */,
 				8C0022B52669302400E6F5D8 /* KingfisherViewController.swift in Sources */,
 				8C2D23AE26DE37C800E03238 /* PKHUDViewController.swift in Sources */,

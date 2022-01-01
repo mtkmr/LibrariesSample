@@ -52,6 +52,13 @@ internal enum StoryboardScene {
 
     internal static let initialScene = InitialSceneType<LibrariesSample.PKHUDViewController>(storyboard: Pkhud.self)
   }
+  internal enum SwiftMessages: StoryboardType {
+    internal static let storyboardName = "SwiftMessages"
+
+    internal static let initialScene = InitialSceneType<LibrariesSample.SwiftMessagesViewController>(storyboard: SwiftMessages.self)
+
+    internal static let child = SceneType<UIKit.UINavigationController>(storyboard: SwiftMessages.self, identifier: "Child")
+  }
   internal enum SwiftyAttribute: StoryboardType {
     internal static let storyboardName = "SwiftyAttribute"
 

@@ -44,6 +44,10 @@ name: SwiftLint, nameSpecified:
 body: The MIT License (MIT…
 version: 0.43.1
 
+name: SwiftMessages, nameSpecified: 
+body: Copyright (c) 2016 S…
+version: 9.0.5
+
 name: SwiftyAttributes, nameSpecified: 
 body: The MIT License (MIT…
 version: 5.1.1
