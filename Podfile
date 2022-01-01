@@ -20,4 +20,5 @@ target 'LibrariesSample' do
   pod 'SwiftLint'
   pod 'SwiftGen'
   pod 'PKHUD'
+  pod 'SwiftMessages'
 end
